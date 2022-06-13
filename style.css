@@ -199,8 +199,11 @@ header .logo
   background: linear-gradient(90deg,#00DBDE,#fc00fcFF);
   font-weight: 600;
   padding-left: 20px;
+  background-clip: text;
+  color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  
   
 
 }
@@ -415,6 +418,8 @@ header .logo
 .privacycontent a, strong, h1 {
   background: linear-gradient(90deg,#00DBDE,#fc00fcFF);
   text-decoration: none;
+  background-clip: text;
+  color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -423,6 +428,8 @@ header .logo
   font-size: 2em;
   background: linear-gradient(90deg,#00DBDE,#fc00fcFF);
   text-decoration: none;
+  background-clip: text;
+  color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
