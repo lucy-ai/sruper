@@ -26,6 +26,7 @@ header .logo
   font-size: 2em;
   font-weight: bolder;
 }
+
 .toggle
 {
   position:sticky;
@@ -89,7 +90,7 @@ header .logo
   z-index: 10;
 }
 
-.text h2
+.text h1
 {
   font-size: 5em;
   font-weight: 800;
@@ -198,7 +199,7 @@ header .logo
   background: linear-gradient(90deg,#00DBDE,#fc00fcFF);
   font-weight: 600;
   padding-left: 20px;
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   
 
@@ -302,7 +303,7 @@ header .logo
   background: #f9f9f9;
   width: calc(100% - 400px);
   padding: 60px 40px 20px;
-  -webkit-border-radius: 20px;
+  border-radius: 20px;
 }
 
 .contact-form form {
@@ -366,7 +367,7 @@ header .logo
   width: 350px;
   background: #f9f9f9;
   padding: 60px 40px 20px;
-  -webkit-border-radius: 20px;
+  border-radius: 20px;
 
 }
 
@@ -401,18 +402,20 @@ header .logo
 
 .privacycontent li {
   list-style: none;
+  margin-top:10px;
+  margin-left: 20px;
 }
 
 .privacycontent ul {
-  position: relative;
   color: #fff;
+  font-size: 20px;
 
 }
 
 .privacycontent a, strong, h1 {
   background: linear-gradient(90deg,#00DBDE,#fc00fcFF);
   text-decoration: none;
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -420,9 +423,14 @@ header .logo
   font-size: 2em;
   background: linear-gradient(90deg,#00DBDE,#fc00fcFF);
   text-decoration: none;
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.privacycontent h2 {
+  margin-top: 30px;
+}
+
 
 
 
@@ -444,9 +452,7 @@ header .logo
     color: #ffffff;
   }
 
-  .text ul li {
-    font-size: 3em;
-  }
+  
   .text h2
   {
     font-size: 3em;
