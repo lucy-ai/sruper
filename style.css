@@ -452,7 +452,9 @@ header .logo
     color: #ffffff;
   }
 
-  
+  .text h1 {
+    font-size: 4em;
+  }
   .text h2
   {
     font-size: 3em;
