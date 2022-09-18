@@ -394,7 +394,7 @@ header .logo
   .logo {
     top: 10px;
     left: 40px;
-    font-size: 5rem;
+    font-size: 5em;
     color: #ffffff;
   }
 
@@ -452,7 +452,7 @@ header .logo
 
   .text p {
 
-    font-size: 2rem;
+    font-size: 2em;
 
   }
 }
