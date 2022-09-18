@@ -448,10 +448,26 @@ header .logo
     margin-top: 20px;
     padding: 30px 30px 20px;
   }
+
+
+  .downloadlogo {
+    font-size: 5em,
+  }
+
+  .circlelogo {
+    margin-top: 200px;
+    font-size: 5em,
+  }
+
+  .text p {
+
+    font-size: 2em;
+
+  }
 }
 
 
-@media (max-width: 813px) {
+@media (max-width: 768px) {
   
   .services {
     grid-template-columns: 1fr;
