@@ -446,13 +446,13 @@ header .logo
   }
 
   .circlelogo {
-    margin-top: 200px;
+    margin-top: 80px;
     font-size: 5em,
   }
 
   .text p {
 
-    font-size: 2em;
+    font-size: 2rem;
 
   }
 }
