@@ -462,11 +462,12 @@ header .logo
   }
 
   .downloadlogo {
-    font-size: 5rem,
+    font-size: 5em,
   }
 
   .circlelogo {
     margin-top: 200px;
+    font-size: 5em,
   }
 
   .text p {
